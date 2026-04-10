@@ -34,8 +34,12 @@ public class MathApp {
         System.out.println(distanceBetweenPoints);
 
         // Question 6
+        double notAbsolute = -3.8;
+        double isAbsolute = Math.abs(notAbsolute);
+        System.out.println(isAbsolute);
 
         // Question 7
+        System.out.println((double) Math.random());
 
         // Question 8
         int minutesInDay = 60;
