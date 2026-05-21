@@ -7,7 +7,7 @@ public class MathApp {
         int bobSalary = 50000;
         int garySalary = 45000;
         int highestSalary = Math.max(bobSalary, garySalary);
-        System.out.println("The highest salary is " +highestSalary);
+        System.out.println("The highest salary is " + highestSalary);
 
         // Question 2
         int carPrice = 7300;
@@ -42,16 +42,20 @@ public class MathApp {
         System.out.println((double) Math.random());
 
         // Question 8
-        int minutesInDay = 60;
-        int hoursInDay = 24;
+        int minutesPerHour = 60;
+        int hoursPerDay = 24;
         int twentyFourDays = 24;
-        System.out.println(minutesInDay * hoursInDay * twentyFourDays);
+        System.out.println(minutesPerHour * hoursPerDay * twentyFourDays);
 
-
-
-
-
-
+        // Bonus Question
+        int millisecondsPerSecond = 1000;
+        int secondsPerMinute = 60;
+        System.out.println(
+                millisecondsPerSecond *
+                secondsPerMinute *
+                minutesPerHour *
+                hoursPerDay *
+                twentyFourDays);
 
     }
 }
